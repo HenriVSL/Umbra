@@ -1,9 +1,13 @@
 import SwiftUI
 
 @main struct MyApp: App {
+    @StateObject private var model = AppModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
+                .environmentObject(model)
+                .tint(.green)
         }
     }
 }

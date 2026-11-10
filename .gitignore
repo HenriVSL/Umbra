@@ -1,0 +1,18 @@
+.build/
+.swiftpm/
+xcuserdata/
+DerivedData/
+dist/
+.build-linux/
+
+# Added for GitHub publishing
+.DS_Store
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+build/
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.xcarchive
+.claude/
